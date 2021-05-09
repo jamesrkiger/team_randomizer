@@ -2,10 +2,6 @@ import random
 
 roster_init = "Linus, Cletus, Clement, Sixtus, Cornelius, Cyprian, Lawrence, Chrysogonus, John, Paul, Cosmas, Damian, Stephen, Matthias, Barnabas, Ignatius, Alexander, Marcellinus, Peter, Felicitas, Perpetua, Agatha, Lucy, Agnes, Cecilia, Anastasia"
 
-print ("Welcome to the Academy Pittsburgh random team generator. Let's get teamed up.\n")
-
-print ("Please review the roster and see if anyone is absent:\n" + roster_init + "\n")
-
 print ("Please review the roster and see if anyone is absent:\n" + roster_init + "\n")
 print ("Enter the names of any absent students as they appear above, separated by commas and spaces. If no one is absent, press enter.\n")
 absentees = str(input())
